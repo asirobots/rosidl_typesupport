@@ -8,7 +8,6 @@
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-  <buildtool_depend>coredx_binary</buildtool_depend>
 
   <build_depend>libpoco-dev</build_depend>
   <build_depend>poco_vendor</build_depend>
