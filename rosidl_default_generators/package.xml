@@ -7,6 +7,8 @@
   <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>Apache License 2.0</license>
 
+  <build_depend>coredx_cmake_module</build_depend>
+
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <buildtool_export_depend>rosidl_cmake</buildtool_export_depend>
@@ -25,6 +27,8 @@
   <buildtool_export_depend>rosidl_typesupport_connext_cpp</buildtool_export_depend>
   <buildtool_export_depend>rosidl_typesupport_opensplice_c</buildtool_export_depend>
   <buildtool_export_depend>rosidl_typesupport_opensplice_cpp</buildtool_export_depend>
+  <buildtool_export_depend>rosidl_typesupport_coredx_c</buildtool_export_depend>
+  <buildtool_export_depend>rosidl_typesupport_coredx_cpp</buildtool_export_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
